@@ -18,18 +18,19 @@ a[href$="136306"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZ
 a[href$="138342"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
 
 a[href$="138457"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
-@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap');
 body {
     background: url('https://i.imgur.com/trjqVHU.jpg') center center fixed;
     background-size: 100%;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
     color: white;
     font-size: 11px;
 }
    
 .center.b {
     color: white !important;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
 }
    
 .feature {
@@ -44,7 +45,7 @@ body {
     border-top: none;
     color: white;
     border-radius: 30px;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
     color: white;
 }
    
@@ -53,12 +54,12 @@ body {
     border-bottom: none;
     color: white;
     border-radius: 30px;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
 }
    
 .navbar li a {
     color: white !important;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
 }
    
 .navbar li a:hover {
@@ -158,18 +159,18 @@ h1 {
     color: #ffffff;
     font-size: 80px;
     text-align: center;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
 }
    
 h2 {
     color: white;
     font-size: 24px;
     text-align: center;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
 }
    
 .sidebar h3 {
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
 }
    
 h3 {
@@ -191,7 +192,7 @@ th {
     background: rgba(74, 53, 21, 0.6) !important;
     color: white !important;
     border-radius: 20px;
-    font-family: 'Freckle Face', serif;
+    font-family: 'Viaoda Libre', cursive;
 }
    
 .table .left {
