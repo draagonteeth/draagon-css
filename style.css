@@ -1,0 +1,353 @@
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://i.imgur.com/J210Qsv.gif');
+}
+div.cave-grid > img {content: url('https://i.imgur.com/kGeGIVN.png')!important;}
+
+div.mound-grid > img {content: url('https://i.imgur.com/XK16pON.png')!important;}
+
+a[href$="69496"] > div.mound-grid > img {content: url('https://i.imgur.com/XK16pON.png')!important;}
+
+a[href$="70307"] > div.mound-grid > img {content: url('https://i.imgur.com/XK16pON.png')!important;}
+
+a[href$="unsorted.php?id=194897"] > div.cave-grid > img {content: url('https://i.imgur.com/DjlZbcl.jpg')!important;}
+
+a[href$="lionoverview.php?id=194897"] > div.cave-grid > img {content: url('https://i.imgur.com/dDpJsn0.jpg')!important;}
+
+a[href$="136306"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
+
+a[href$="138342"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
+
+a[href$="138457"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
+
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+.freckle-face-regular {
+  font-family: "Freckle Face", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+   
+.center.b {
+    color: white !important;
+    font-family: 'Viaoda Libre', cursive;
+}
+   
+.feature {
+    background: rgba(109, 140, 108, 0.8) !important;
+    color: white !important;
+    border: 5 !important;
+}
+   
+.topbar {
+    background: rgba(109, 140, 108, 0.6);
+    border: 5px;
+    border-top: none;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Viaoda Libre', cursive;
+    color: white;
+}
+   
+.navbar {
+    background: rgba(109, 140, 108, 0.6);
+    border-bottom: none;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Viaoda Libre', cursive;
+}
+   
+.navbar li a {
+    color: white !important;
+    font-family: 'Viaoda Libre', cursive;
+}
+   
+.navbar li a:hover {
+    background: rgba(130, 140, 108, 0.8) !important;
+}
+   
+.container.main {
+    background: rgba(130, 140, 108, 0.4);
+    border: 20px;
+    box-shadow: none;
+    border: white;
+    border-radius: 20px;
+    p.solid {border-style: solid;}
+}
+   
+.col-md-9 {
+    background: none;
+}
+   
+.breadcrumb {
+    background: rgba(74, 60, 43, 0.8);
+}
+   
+.breadcrumb .active {
+    color: white;
+}
+   
+.alert {
+    background: rgba(99, 74, 35, 0.6);
+    border: 5px;
+    color: white;
+}
+   
+.alert-warning,
+.alert-danger {
+    background: rgba(99, 74, 35, 0.6);
+    color: white;
+}
+   
+div.left {
+    background: rgba(74, 60, 43, 0.6);
+    border: none;
+}
+   
+.panel {
+    background: rgba(51, 66, 43, 0.6) !important;
+    box-shadow: none !important;
+    border: 5px !important;
+    color: white !important;
+    p.solid {border-style: solid;}
+}
+   
+.progress {
+    background: rgba(86, 143, 95, 0.6);
+    color: white !important;
+}
+   
+.progress-div {
+    color: white !important;
+}
+   
+.progress-bar {
+    background: rgba(94, 68, 45, 0.6);
+    color: white !important;
+}
+   
+.s-chat-message:nth-child(even) {
+    background: rgba(87, 77, 58, 0.6) !important;
+    border: none !important;
+}
+   
+.s-chat-message:nth-child(odd) {
+    background: rgba(69, 87, 58, 0.6) !important;
+    border: none !important;
+}
+   
+.s-chat-message__pinned {
+    background: rgba(51, 66, 43, 0.6) !important;
+    color: white !important;
+    border: 5px !important;
+}
+   
+.s-chat-message_timestamp {
+    color: white !important;
+}
+   
+div#chatMessageContainer {
+    border: 5px !important;
+}
+   
+button#label_currentChannel {
+    border: 5px !important;
+    background: rgba(51, 66, 43, 0.6) !important;
+}
+   
+h1 {
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Viaoda Libre', cursive;
+}
+   
+h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Viaoda Libre', cursive;
+}
+   
+.sidebar h3 {
+    font-family: 'Viaoda Libre', cursive;
+}
+   
+h3 {
+    color: white !important;
+    font-size: 24px !important
+}
+   
+.table {
+    background: rgba(117, 87, 42, 0.6);
+    border: 10px !important;
+    border-collapse: separate;
+    border-radius: 35px;
+    color: white !important;
+}
+   
+.top,
+.bottom,
+th {
+    background: rgba(74, 53, 21, 0.6) !important;
+    color: white !important;
+    border-radius: 20px;
+    font-family: 'Viaoda Libre', cursive;
+}
+   
+.table .left {
+    background: rgba(87, 77, 58, 0.6);
+}
+   
+.inner-table .left {
+    background: rgba(66, 87, 58, 0.6) !important;
+}
+   
+.inner-table .right {
+    background: rgba(87, 77, 58, 0.6)
+}
+   
+.right_odd {
+    background: none !important;
+}
+   
+.item-header {
+    background: rgba(71, 60, 36, 0.6) !important;
+    color: white !important;
+}
+   
+.item {
+    background: rgba(71, 60, 36, 0.6) !important;
+    border: 10px !important;
+}
+   
+.sub_menu {
+    background: rgba(51, 66, 43, 0.6) !important;
+}
+   
+.sub_menu_item_selected {
+    background: rgba(166, 157, 138, 0.6) !important;
+}
+   
+.cave-grid,
+.mound-grid {
+    background: rgba(74, 57, 20, 0.6);
+    border: 5px !important;
+}
+   
+a:link,
+a:visited {
+    color: white !important;
+}
+   
+table.table.auto {
+    color: white !important;
+}
+   
+a:hover {
+    color: #5c734c !important;
+}
+   
+input,
+select,
+textarea {
+    background: rgba(92, 115, 76, 0.6) !important;
+    border: 5px !important;
+    border-color: white;
+    border-radius: 20px;
+    box-shadow: none !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+   
+.boxcontainer {
+    background: none;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center
+}
+   
+.Box1 {
+    float: left;
+    background: rgba(92, 115, 76, 0.6);
+    color: white;
+    padding: 5px;
+    border: 5px; #ffffff;
+    border-radius: 25px;
+    margin: 15px;
+    float: left;
+    height: 250px;
+    width: 250px;
+    overflow: solid;
+    margin-bottom: 35px;
+    transition: 1s
+}
+   
+.Box1:hover {
+    overflow-y: auto;
+}
+   
+.Box2 {
+    float: left;
+    background: rgba(82, 63, 38, 0.6);
+    color: white;
+    padding: 5px;
+    border: 5px; #ffffff;
+    border-radius: 25px;
+    margin: 15px;
+    float: right;
+    height: 250px;
+    width: 250px;
+    overflow: solid;
+    margin-bottom: 35px;
+    transition: 1s
+}
+   
+.Box2:hover {
+    overflow-y: auto;
+}
+   
+   
+}
+   
+.credit {
+    background: rgba(82, 63, 38, 0.6);
+    color: white;
+    padding: 10px;
+    border: solid;
+    position: fixed;
+    text-align: center;
+    border-radius: 25px;
+    left: 0px;
+    bottom: 0px;
+    width: 180px;
+    height: 40px;
+    overflow: auto;
+}
+   
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+   
+::-webkit-scrollbar-track {
+    background: #635440;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #4c6340;
+    border-radius: 5px;
+}
+   
+div#lion_image {
+    filter: opacity(80%) grayscale(20%);
+    border-radius: 30% !important;
+    overflow: solid;
+    margin-top: 15px;
+}
+   
+table#player img {
+    filter: opacity(100%) grayscale(20%);
+    border-radius: 30% !important;
+    overflow: solid;
