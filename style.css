@@ -30,7 +30,7 @@ a[href$="138457"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZ
    
 .center.b {
     color: white !important;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
 }
    
 .feature {
@@ -45,7 +45,7 @@ a[href$="138457"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZ
     border-top: none;
     color: white;
     border-radius: 30px;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
     color: white;
 }
    
@@ -54,12 +54,12 @@ a[href$="138457"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZ
     border-bottom: none;
     color: white;
     border-radius: 30px;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
 }
    
 .navbar li a {
     color: white !important;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
 }
    
 .navbar li a:hover {
@@ -159,18 +159,18 @@ h1 {
     color: #ffffff;
     font-size: 80px;
     text-align: center;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
 }
    
 h2 {
     color: white;
     font-size: 24px;
     text-align: center;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
 }
    
 .sidebar h3 {
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
 }
    
 h3 {
@@ -192,7 +192,7 @@ th {
     background: rgba(74, 53, 21, 0.6) !important;
     color: white !important;
     border-radius: 20px;
-    font-family: 'Viaoda Libre', cursive;
+    font-family: "Freckle Face", serif;
 }
    
 .table .left {
