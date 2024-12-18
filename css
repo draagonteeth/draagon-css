@@ -1,0 +1,216 @@
+/*
+  This is a free premade CSS created for Lioden.com by Kraft(#738/#1105)
+  Players may edit, alter, add, delete, manipulate & reupload this code as they wish.
+*/
+
+/* ############## Fonts & Text ############## */
+@import url('https://fonts.googleapis.com/css?family=Merienda|Montserrat');
+
+h1, h1 small, h2, h3, .sidebar h3, h4, h5, h6 {
+font-family: 'Merienda', cursive;
+color: #273337;
+}
+
+h1 {
+font-size: 60px;
+text-align: center;
+text-shadow: 0 0 3px #fff;
+}
+
+h1 small, h2, h3, .sidebar h3, h4, h5, h6 {
+font-size: 20px;
+text-align: left;
+text-shadow: 0 0 3px #fff;
+}
+
+h4 {
+font-size: 20px;
+text-align: center;
+text-shadow: 0 0 3px #fff;
+}
+
+h2, h3 {
+text-align: center;
+}
+
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a, element.style, body, .sidebar, .breadcrumb>.active, .chat_light, .chat_dark, .alert-danger, .alert-success  {
+color: #000;
+}
+
+/* ############## Links ############## */
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+color: #000000;
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+border-bottom: 1px solid #000000;
+color: #000000;
+}
+
+/* ############## Buttons ############## */
+input[type="button"], input[type="submit"], input[type="submit"]:hover, input[type="button"]:hover {
+background: #a59c95;
+color: #000;
+border: 1px solid rgba(0, 0, 0, 0.4);
+text-shadow: none;
+font-weight: bold;
+font-size: 14px;
+margin-top: 01px;
+padding-top: 4px;
+border-radius: 3px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+background: #8e847c;
+}
+/* ############## Page ############## */
+body {
+background: url("https://static.pexels.com/photos/39811/pexels-photo-39811.jpeg") fixed;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+background: rgba(255, 255, 255, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.7);
+border-radius: 20px;
+box-shadow: none;
+}
+
+/* ############## Topbar ############## */
+.topbar {
+background: rgba(255, 255, 255, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.7);
+border-top: none;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.badge {
+background: rgb(86, 108, 123);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+/* ############## Navigational Bar ############## */
+.navbar, .navbar-default .navbar-nav li a:hover {
+background: #273337;
+border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+color: #566d75;
+text-shadow: 0 0 3px #000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: #566d75;
+text-shadow: 0 0 3px #000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+background: rgba(255, 255, 255, 0.2);
+border-radius: 20px;
+}
+
+/* ############## Sidebar ############## */
+.sidebar, .col-md-3 .panel, .progress-bar, .progress, .chatContainer, .userstolen, .alert-danger, .alert-success, .breadcrumb, .col-md-9 {
+background: none;
+border: none;
+box-shadow: none;
+}
+
+.col-md-3 .panel {
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+}
+
+.progress-bar {
+background: #848887;
+}
+
+.progress {
+background: #ececec;
+border: none;
+border-radius: 10px;
+}
+
+/* ############## Chat ############## */
+.chatContainer {
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.chat_light,.chat_dark {
+background: rgba(255, 255, 255, 0.5);
+border: none;
+}
+
+.alert-success {
+background: rgba(116, 210, 100, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.alert-danger {
+background: rgba(214, 91, 91, 0.7);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.breadcrumb {
+background: #b6afa9;
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+/* ############## Tables ############## */
+#lion_image {
+border-radius: 25px;
+overflow: hidden;
+border: 1px solid #000;
+}
+
+.table, .item, .table .right, .table .right_odd, div .feature, .table .top, .table th, .item-header, .table .bottom, .item-footer, .cave-grid, div .left, .mound-grid, .table .left, .inner-table .right {
+border: none;
+color: #000;
+}
+
+div .feature, .table .top, .table th, .item-header, .table .bottom, .item-footer, .cave-grid, div .left, .mound-grid, .table .left {
+background: #848887;
+}
+
+.table, .item {
+background: rgba(255, 255, 255, 0.5);
+border-collapse: separate;
+border-radius: 20px;
+
+}
+
+.table .right, .table .right_odd {
+background: none;
+}
+
+.inner-table .right {
+border-left: none;
+background: rgb(255, 255, 255);
+}
+
+div .feature, .table .top, .table th, .item-header {
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+.table .bottom, .item-footer {
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+.cave-grid, div .left, .mound-grid {
+border-radius: 20px;
+}
+
+/*
+  This is a free premade CSS created for Lioden.com by Kraft(#738/#1105)
+  Players may edit, alter, add, delete, manipulate & reupload this code as they wish.
+*/
