@@ -1,356 +1,216 @@
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-content: url('https://i.imgur.com/J210Qsv.gif');
-}
-div.cave-grid > img {content: url('https://i.imgur.com/kGeGIVN.png')!important;}
+/*
+  This is a free premade CSS created for Lioden.com by Kraft(#738/#1105)
+  Players may edit, alter, add, delete, manipulate & reupload this code as they wish.
+*/
 
-div.mound-grid > img {content: url('https://i.imgur.com/XK16pON.png')!important;}
+/* ############## Fonts & Text ############## */
+@import url('https://fonts.googleapis.com/css?family=Merienda|Montserrat');
 
-a[href$="69496"] > div.mound-grid > img {content: url('https://i.imgur.com/XK16pON.png')!important;}
+h1, h1 small, h2, h3, .sidebar h3, h4, h5, h6 {
+font-family: 'Merienda', cursive;
+color: #273337;
+}
 
-a[href$="70307"] > div.mound-grid > img {content: url('https://i.imgur.com/XK16pON.png')!important;}
-
-a[href$="unsorted.php?id=194897"] > div.cave-grid > img {content: url('https://i.imgur.com/DjlZbcl.jpg')!important;}
-
-a[href$="lionoverview.php?id=194897"] > div.cave-grid > img {content: url('https://i.imgur.com/dDpJsn0.jpg')!important;}
-
-a[href$="136306"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
-
-a[href$="138342"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
-
-a[href$="138457"] > div.cave-grid > img {content: url('https://i.imgur.com/R92IZow.jpg')!important;}
-
-@import url('https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap');
-
-}
-   
-.body {
-    background: url('https://i.imgur.com/trjqVHU.jpg') center center fixed;
-    background-size: 100%;
-    font-family: 'Viaoda Libre', cursive;
-    color: white;
-    font-size: 11px;
-}
-   
-.center.b {
-    color: white !important;
-    font-family: 'Viaoda Libre', cursive;
-}
-   
-.feature {
-    background: rgba(109, 140, 108, 0.8) !important;
-    color: white !important;
-    border: 5 !important;
-}
-   
-.topbar {
-    background: rgba(109, 140, 108, 0.6);
-    border: 5px;
-    border-top: none;
-    color: white;
-    border-radius: 30px;
-    font-family: 'Viaoda Libre', cursive;
-    color: white;
-}
-   
-.navbar {
-    background: rgba(109, 140, 108, 0.6);
-    border-bottom: none;
-    color: white;
-    border-radius: 30px;
-    font-family: 'Viaoda Libre', cursive;
-}
-   
-.navbar li a {
-    color: white !important;
-    font-family: 'Viaoda Libre', cursive;
-}
-   
-.navbar li a:hover {
-    background: rgba(130, 140, 108, 0.8) !important;
-}
-   
-.container.main {
-    background: rgba(130, 140, 108, 0.4);
-    border: 20px;
-    box-shadow: none;
-    border: white;
-    border-radius: 20px;
-    p.solid {border-style: solid;}
-}
-   
-.col-md-9 {
-    background: none;
-}
-   
-.breadcrumb {
-    background: rgba(74, 60, 43, 0.8);
-}
-   
-.breadcrumb .active {
-    color: white;
-}
-   
-.alert {
-    background: rgba(99, 74, 35, 0.6);
-    border: 5px;
-    color: white;
-}
-   
-.alert-warning,
-.alert-danger {
-    background: rgba(99, 74, 35, 0.6);
-    color: white;
-}
-   
-div.left {
-    background: rgba(74, 60, 43, 0.6);
-    border: none;
-}
-   
-.panel {
-    background: rgba(51, 66, 43, 0.6) !important;
-    box-shadow: none !important;
-    border: 5px !important;
-    color: white !important;
-    p.solid {border-style: solid;}
-}
-   
-.progress {
-    background: rgba(86, 143, 95, 0.6);
-    color: white !important;
-}
-   
-.progress-div {
-    color: white !important;
-}
-   
-.progress-bar {
-    background: rgba(94, 68, 45, 0.6);
-    color: white !important;
-}
-   
-.s-chat-message:nth-child(even) {
-    background: rgba(87, 77, 58, 0.6) !important;
-    border: none !important;
-}
-   
-.s-chat-message:nth-child(odd) {
-    background: rgba(69, 87, 58, 0.6) !important;
-    border: none !important;
-}
-   
-.s-chat-message__pinned {
-    background: rgba(51, 66, 43, 0.6) !important;
-    color: white !important;
-    border: 5px !important;
-}
-   
-.s-chat-message_timestamp {
-    color: white !important;
-}
-   
-div#chatMessageContainer {
-    border: 5px !important;
-}
-   
-button#label_currentChannel {
-    border: 5px !important;
-    background: rgba(51, 66, 43, 0.6) !important;
-}
-   
 h1 {
-    color: #ffffff;
-    font-size: 80px;
-    text-align: center;
-    font-family: 'Viaoda Libre', cursive;
+font-size: 60px;
+text-align: center;
+text-shadow: 0 0 3px #fff;
 }
-   
-h2 {
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    font-family: 'Viaoda Libre', cursive;
+
+h1 small, h2, h3, .sidebar h3, h4, h5, h6 {
+font-size: 20px;
+text-align: left;
+text-shadow: 0 0 3px #fff;
 }
-   
-.sidebar h3 {
-    font-family: 'Viaoda Libre', cursive;
+
+h4 {
+font-size: 20px;
+text-align: center;
+text-shadow: 0 0 3px #fff;
 }
-   
-h3 {
-    color: white !important;
-    font-size: 24px !important
+
+h2, h3 {
+text-align: center;
 }
-   
-.table {
-    background: rgba(117, 87, 42, 0.6);
-    border: 10px !important;
-    border-collapse: separate;
-    border-radius: 35px;
-    color: white !important;
+
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a, element.style, body, .sidebar, .breadcrumb>.active, .chat_light, .chat_dark, .alert-danger, .alert-success  {
+color: #000;
 }
-   
-.top,
-.bottom,
-th {
-    background: rgba(74, 53, 21, 0.6) !important;
-    color: white !important;
-    border-radius: 20px;
-    font-family: 'Viaoda Libre', cursive;
+
+/* ############## Links ############## */
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+color: #000000;
 }
-   
-.table .left {
-    background: rgba(87, 77, 58, 0.6);
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+border-bottom: 1px solid #000000;
+color: #000000;
 }
-   
-.inner-table .left {
-    background: rgba(66, 87, 58, 0.6) !important;
+
+/* ############## Buttons ############## */
+input[type="button"], input[type="submit"], input[type="submit"]:hover, input[type="button"]:hover {
+background: #a59c95;
+color: #000;
+border: 1px solid rgba(0, 0, 0, 0.4);
+text-shadow: none;
+font-weight: bold;
+font-size: 14px;
+margin-top: 01px;
+padding-top: 4px;
+border-radius: 3px;
 }
-   
+
+input[type="submit"]:hover, input[type="button"]:hover {
+background: #8e847c;
+}
+/* ############## Page ############## */
+body {
+background: url("https://static.pexels.com/photos/39811/pexels-photo-39811.jpeg") fixed;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+background: rgba(255, 255, 255, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.7);
+border-radius: 20px;
+box-shadow: none;
+}
+
+/* ############## Topbar ############## */
+.topbar {
+background: rgba(255, 255, 255, 0.4);
+border: 1px solid rgba(0, 0, 0, 0.7);
+border-top: none;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.badge {
+background: rgb(86, 108, 123);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+/* ############## Navigational Bar ############## */
+.navbar, .navbar-default .navbar-nav li a:hover {
+background: #273337;
+border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+color: #566d75;
+text-shadow: 0 0 3px #000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: #566d75;
+text-shadow: 0 0 3px #000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+background: rgba(255, 255, 255, 0.2);
+border-radius: 20px;
+}
+
+/* ############## Sidebar ############## */
+.sidebar, .col-md-3 .panel, .progress-bar, .progress, .chatContainer, .userstolen, .alert-danger, .alert-success, .breadcrumb, .col-md-9 {
+background: none;
+border: none;
+box-shadow: none;
+}
+
+.col-md-3 .panel {
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+}
+
+.progress-bar {
+background: #848887;
+}
+
+.progress {
+background: #ececec;
+border: none;
+border-radius: 10px;
+}
+
+/* ############## Chat ############## */
+.chatContainer {
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.chat_light,.chat_dark {
+background: rgba(255, 255, 255, 0.5);
+border: none;
+}
+
+.alert-success {
+background: rgba(116, 210, 100, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.alert-danger {
+background: rgba(214, 91, 91, 0.7);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.breadcrumb {
+background: #b6afa9;
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+/* ############## Tables ############## */
+#lion_image {
+border-radius: 25px;
+overflow: hidden;
+border: 1px solid #000;
+}
+
+.table, .item, .table .right, .table .right_odd, div .feature, .table .top, .table th, .item-header, .table .bottom, .item-footer, .cave-grid, div .left, .mound-grid, .table .left, .inner-table .right {
+border: none;
+color: #000;
+}
+
+div .feature, .table .top, .table th, .item-header, .table .bottom, .item-footer, .cave-grid, div .left, .mound-grid, .table .left {
+background: #848887;
+}
+
+.table, .item {
+background: rgba(255, 255, 255, 0.5);
+border-collapse: separate;
+border-radius: 20px;
+
+}
+
+.table .right, .table .right_odd {
+background: none;
+}
+
 .inner-table .right {
-    background: rgba(87, 77, 58, 0.6)
+border-left: none;
+background: rgb(255, 255, 255);
 }
-   
-.right_odd {
-    background: none !important;
+
+div .feature, .table .top, .table th, .item-header {
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
 }
-   
-.item-header {
-    background: rgba(71, 60, 36, 0.6) !important;
-    color: white !important;
+
+.table .bottom, .item-footer {
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
 }
-   
-.item {
-    background: rgba(71, 60, 36, 0.6) !important;
-    border: 10px !important;
+
+.cave-grid, div .left, .mound-grid {
+border-radius: 20px;
 }
-   
-.sub_menu {
-    background: rgba(51, 66, 43, 0.6) !important;
-}
-   
-.sub_menu_item_selected {
-    background: rgba(166, 157, 138, 0.6) !important;
-}
-   
-.cave-grid,
-.mound-grid {
-    background: rgba(74, 57, 20, 0.6);
-    border: 5px !important;
-}
-   
-a:link,
-a:visited {
-    color: white !important;
-}
-   
-table.table.auto {
-    color: white !important;
-}
-   
-a:hover {
-    color: #5c734c !important;
-}
-   
-input,
-select,
-textarea {
-    background: rgba(92, 115, 76, 0.6) !important;
-    border: 5px !important;
-    border-color: white;
-    border-radius: 20px;
-    box-shadow: none !important;
-    color: white !important;
-    text-shadow: none !important;
-}
-   
-.boxcontainer {
-    background: none;
-    height: auto;
-    padding: 10px;
-    display: flex;
-    justify-content: center
-}
-   
-.Box1 {
-    float: left;
-    background: rgba(92, 115, 76, 0.6);
-    color: white;
-    padding: 5px;
-    border: 5px; #ffffff;
-    border-radius: 25px;
-    margin: 15px;
-    float: left;
-    height: 250px;
-    width: 250px;
-    overflow: solid;
-    margin-bottom: 35px;
-    transition: 1s
-}
-   
-.Box1:hover {
-    overflow-y: auto;
-}
-   
-.Box2 {
-    float: left;
-    background: rgba(82, 63, 38, 0.6);
-    color: white;
-    padding: 5px;
-    border: 5px; #ffffff;
-    border-radius: 25px;
-    margin: 15px;
-    float: right;
-    height: 250px;
-    width: 250px;
-    overflow: solid;
-    margin-bottom: 35px;
-    transition: 1s
-}
-   
-.Box2:hover {
-    overflow-y: auto;
-}
-   
-   
-}
-   
-.credit {
-    background: rgba(82, 63, 38, 0.6);
-    color: white;
-    padding: 10px;
-    border: solid;
-    position: fixed;
-    text-align: center;
-    border-radius: 25px;
-    left: 0px;
-    bottom: 0px;
-    width: 180px;
-    height: 40px;
-    overflow: auto;
-}
-   
-::-webkit-scrollbar {
-    width: 7px;
-    height: 7px;
-}
-   
-::-webkit-scrollbar-track {
-    background: #635440;
-}
-   
-::-webkit-scrollbar-thumb {
-    background: #4c6340;
-    border-radius: 5px;
-}
-   
-div#lion_image {
-    filter: opacity(80%) grayscale(20%);
-    border-radius: 30% !important;
-    overflow: solid;
-    margin-top: 15px;
-}
-   
-table#player img {
-    filter: opacity(100%) grayscale(20%);
-    border-radius: 30% !important;
-    overflow: solid;
+
+/*
+  This is a free premade CSS created for Lioden.com by Kraft(#738/#1105)
+  Players may edit, alter, add, delete, manipulate & reupload this code as they wish.
+*/
